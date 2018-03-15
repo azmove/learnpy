@@ -34,8 +34,7 @@ git merge origin/master
 
    上述过程其实可以用以下更清晰的方式来进行：
 ******************************************
-git fetch origin master:tmp
-git diff tmp 
+git fetch origin master:tmp && git diff tmp 
 git merge tmp
 
 ******************************************
